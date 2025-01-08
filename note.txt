@@ -1,0 +1,108 @@
+npm init -y 
+npm install firebase   ("type": "module")
+npm install --save-dev vite
+
+--------------------------------------------------------- 
+?=> Intalling the tailwind css
+https://tailwindcss.com/
+https://tailwindcss.com/docs/installation/using-postcss  (read doc)
+
+* 1. install package and create init config file
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init   (file creater)
+
+* 2. Add Tailwind to your PostCSS configuration 
+create postcss.config.js manually (Note: do not forget to export as ES^)
+export default  {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+
+* 3. Add  in tailwind config
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: []
+}
+
+* 4. Add the tailwind directives to your css 
+create a css file located to  (eg. src/css/main.css)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm run build 
+npm run dev
+
+*5 . include css link  to each html files
+<link href="" rel="stylesheet" />
+
+--------------------------------------------------------- 
+
+? => Install Express
+*npm install express or npm install express@latest
+
+*=?import
+
+import express from 'express';
+
+
+
+--------------------------------------------------------- 
+
+?=> Enable Email/Password Autheticaion 
+
+*Mkae sure you have enable Email/Password Autheticaion  in your firebase Conosle 
+
+Authentication > Sign-in method  
+Enable Google under the list of provider 
+
+Public-facing name for project = your firebase project id 
+Suppoer email for project = your firebase gamil address 
+Save 
+
+
+--------------------------------------------------------- 
+
+?=> Customize the Password Reset Email Template 
+you can customize the password reset email link to redirected user to a specific page in your app 
+
+Authentication > Template > Password reset > click Edit Pen
+
+--------------------------------------------------------- 
+
+?=> Instll date-fns 
+*npm install date-fns --save
+
+*import in src/main.js or src/js/uielemnt.js 
+import { format, compareAsc } from "date-fns";
+
+--------------------------------------------------------- 
+
+?=> install fontawesome 6
+*npm install @fortawesome/fontawesome-free 
+
+*import in src/main/
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+---------------------------------------------------------------- 
+
+?=> Deploy on Cloud Server 
+
+*1. your project need Repo public/private  to Github 
+
+
+
+
+
+
+
+
+
+
