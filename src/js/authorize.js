@@ -24,7 +24,8 @@ export  function Authorize() {
         }).then(() => {
 
           //set user name
-          setLocalName(fullname);
+          setLocalName(userCredential.user);
+          
 
           //? Redirect to index.html 
           window.location.href = "../index.html";

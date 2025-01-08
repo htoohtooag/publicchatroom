@@ -122,6 +122,13 @@ but we need to upgrade
 
 *way2 make yourself
 
+//? wanna fix some codes Deploy again 
+
+*1. make changes in the codes 
+*2. build  npm run build 
+*3 git push your codes  (git push -u origin main)
+*4. in the render yourworkshor > publicchatroom > "Manual depoly" > "Deploy lasted commit"
+
 
 
 
