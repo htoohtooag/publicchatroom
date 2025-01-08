@@ -97,6 +97,32 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 *1. your project need Repo public/private  to Github 
 
+* 2. Singin your account to https://render.com 
+
+* 3. Prepare the build output  
+  your project must builded nay typically located in the "dist" directroy 
+
+* 4. Create a new static site 
+  click > "New +" > Static Site > Github > your account > choose repo > click "connect
+
+* 5. Name: publicchatroom 
+     branch: main 
+     Build Command: npm run build  (React , Vue, vite, etc..) , ng build (Angular)
+
+* 6. Enviroment Variable  = copy past .env data to Enviroment Variable 
+
+
+//? When we make the project in smaple host like render
+and we share our site 
+everyone can join and made comment (can be scan and ohters bad ass words)
+we can made delee all messages after 10 mintes or smt 
+
+*way1 can make in firebase funciton  (https://console.firebase.google.com/u/1/project/my-frist-project1-14b05/functions)
+but we need to upgrade
+
+*way2 make yourself
+
+
 
 
 
